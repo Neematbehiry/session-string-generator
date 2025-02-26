@@ -1,0 +1,1 @@
+import{g as o,i as t}from"./chunk-E3MB5WL4.js";import{h as a}from"./chunk-WOE4W6CR.js";function f({present:e,children:r}){let n=o(e.value);return t(()=>void(e.value&&(n.value=!0))),n.value?a(r,{onAnimationEnd:l=>l.target==l.currentTarget&&!e.value&&(n.value=!1)}):null}export{f as a};

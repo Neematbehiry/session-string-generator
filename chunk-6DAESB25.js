@@ -1,0 +1,1 @@
+import{b as n}from"./chunk-OAXRZPAS.js";import{d as o}from"./chunk-E3MB5WL4.js";function l(){let a=o(n?location.hash:"");return n&&addEventListener("hashchange",()=>{a.value=location.hash}),n&&addEventListener("popstate",()=>{a.value=location.hash}),a}function r(a){let t=new URL(location.href);t.hash=a,location.replace(t)}export{l as a,r as b};

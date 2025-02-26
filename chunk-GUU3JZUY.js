@@ -1,0 +1,1 @@
+import{b as e}from"./chunk-OAXRZPAS.js";import{d as n}from"./chunk-E3MB5WL4.js";function g(r,t){let o=n(e?localStorage.getItem(t)!=null:r);return e&&o.subscribe(l=>{l?localStorage.setItem(t,""):localStorage.removeItem(t)}),o}function i(r,t){let o=n(e?localStorage.getItem(t)??"":r);return e&&o.subscribe(l=>{localStorage.setItem(t,l)}),o}export{g as a,i as b};
