@@ -1,0 +1,27 @@
+:root {
+  --background: #fff;
+  --background-transparent: #fff1;
+  --foreground: #000;
+  --foreground-transparent: #0001;
+  --grammy: #009dca;
+  --button-text: #00637f;
+  --border: #eee;
+  --gradient: linear-gradient(120deg, var(--background) 45%, #f5f5f5);
+  --button-background: #dbf7ff;
+  --shadow: #0001;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #090909;
+    --background-transparent: #09090911;
+    --foreground: #fff;
+    --foreground-transparent: #fff1;
+    --grammy: #009dca;
+    --button-text: #00c8ff;
+    --border: #191919;
+    --gradient: linear-gradient(120deg, var(--background) 45%, #191919);
+    --button-background: #041920;
+    --shadow: #ffffff02;
+  }
+}
